@@ -1,0 +1,51 @@
+
+/* Header/SearchBar */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: left;  
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.header>h1{
+  font-size: 50px;
+}
+
+.inputCnt{
+  border: solid 2px rgb(182, 182, 182);
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
+  padding: 25px;
+}
+
+.search{
+  width: 300px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+}
+
+.submitBtn{
+  height: 26px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* google map */
+
+.map-container{
+  width:99.3vw;
+  height: 75vh;
+}
+
+.Info{
+  width: 250px;
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
